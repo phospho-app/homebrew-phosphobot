@@ -1,6 +1,7 @@
-# homebrew-tap
+# homebrew-phosphobot
 
-phosphobot teleop application for robot control
+This is the server side implementation of the phosphobot robotics software.
+Please check [the phosphobot repo](https://github.com/phospho-app/phosphobot) to find the client side implementation.
 
 ## How to install phosphobot with brew
 
