@@ -15,7 +15,7 @@ Please check [the phosphobot repo](https://github.com/phospho-app/phosphobot) to
 This is initially meant to be run on a raspberry pi but can be run through brew on a mac.
 Please find instructions below.
 
-If you wish to access this software on another platform or are facing difficulty, please reach out at contact@phospho.ai
+If you wish to access this software on another platform or are facing difficulty, please reach out on discord (link above) or at contact@phospho.ai
 
 ## How to install phosphobot with brew
 
