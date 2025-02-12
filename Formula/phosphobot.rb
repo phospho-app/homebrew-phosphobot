@@ -6,8 +6,8 @@ class Phosphobot < Formula
     license "MIT"
   
     def install
-      chmod "+x", bin/"phosphobot.bin"
-      bin.install "phosphobot.bin" => "phosphobot"
+      chmod "+x", "phosphobot"
+      bin.install "phosphobot"
     end
   
     test do
