@@ -20,7 +20,7 @@ If you wish to access this software on another platform or are facing difficulty
 ## How to install phosphobot with brew
 
 ```bash
-brew tap phospho-app/homebrew-phosphobot
+brew tap phospho-app/phosphobot
 brew install phosphobot
 ```
 
