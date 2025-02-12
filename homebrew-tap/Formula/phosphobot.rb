@@ -6,7 +6,7 @@ class Phosphobot < Formula
     license "MIT"
   
     def install
-      bin.install "phosphobot"
+      bin.install "phosphobot.bin" => "phosphobot"
     end
   
     test do
