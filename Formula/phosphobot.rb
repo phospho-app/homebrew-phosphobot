@@ -7,7 +7,7 @@ class Phosphobot < Formula
   
     def install
       chmod "+x", "phosphobot.bin"
-      bin.install "phosphobot.bin"
+      bin.install "phosphobot.bin" => "phosphobot"
     end
   
     test do
