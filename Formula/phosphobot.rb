@@ -1,8 +1,8 @@
 class Phosphobot < Formula
   desc "Phosphobot teleop application for robot control"
   homepage "https://github.com/phospho-app/phosphobot"
-  url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.66/phosphobot.bin"
-  sha256 "8e7601c603554fecc3914709697e1cf7e5f2f48cff01ea41eb0d50626bb2ae39"
+  url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.67/phosphobot.bin"
+  sha256 "13d8995cd44972acdb4b84430da824829e461ebfb8492851434b760b4e62e8ae"
   license "MIT"
 
   def install
