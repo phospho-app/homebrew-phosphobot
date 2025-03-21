@@ -5,11 +5,11 @@ class Phosphobot < Formula
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.94/phosphobot-arm64.bin"
-      sha256 "342c97dc18fbd62a50fe83227a0973f048bfbf8fc07da8ca309c9af1061f687c"
+      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.95/phosphobot-arm64.bin"
+      sha256 "3b2470873d7a9f396516815329442618d79b0360a7ddd39ff6474cd618cb0e57"
     else
-      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.94/phosphobot-x86_64.bin"
-      sha256 "f47b97a675fed53bc97d0b1c322b3413da7c8c3af029af3add6cf6775041df8e"
+      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.95/phosphobot-x86_64.bin"
+      sha256 "1708922fe43f2b0cc40e95fd2bed7ac1ee7720751ff73e89932f4529189344e5"
     end
   end
   
