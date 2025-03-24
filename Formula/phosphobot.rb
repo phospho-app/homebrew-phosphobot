@@ -6,16 +6,16 @@ class Phosphobot < Formula
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.99/phosphobot-/home/runner/work/_temp/e87911a8-0993-40ce-afe6-3d2e42be385c.sh.2.99-arm64.bin"
-      sha256 "250d8beee115fe7d50415c02863e5f0eb2b3947ca1675e7fdfd9a744305c658e"
+      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.99/phosphobot-0.2.99-arm64.bin"
+      sha256 "fc4e3165711513d215788df286cf6b46cfa8a08a062442e2f4eb54d3ab8bb3e5"
     else
-      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.99/phosphobot-/home/runner/work/_temp/e87911a8-0993-40ce-afe6-3d2e42be385c.sh.2.99-x86_64.bin"
-      sha256 "712ffb050dbd371dadc85bad5c223e234b787e160895ccd35840571ae4eae331"
+      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/0.2.99/phosphobot-0.2.99-x86_64.bin"
+      sha256 "128a48abda20bcd63adb6a8599ff4f9e5d50f4d00b8b3ee423415a7dd01ca901"
     end
   end
   
   def install
-    bin_name = Hardware::CPU.arm? ? "phosphobot-/home/runner/work/_temp/e87911a8-0993-40ce-afe6-3d2e42be385c.sh.2.99-arm64.bin" : "phosphobot-/home/runner/work/_temp/e87911a8-0993-40ce-afe6-3d2e42be385c.sh.2.99-x86_64.bin"
+    bin_name = Hardware::CPU.arm? ? "phosphobot-/home/runner/work/_temp/eea897d3-debc-4168-a760-c76383608bbc.sh.2.99-arm64.bin" : "phosphobot-/home/runner/work/_temp/eea897d3-debc-4168-a760-c76383608bbc.sh.2.99-x86_64.bin"
     chmod "+x", bin_name
     bin.install bin_name => "phosphobot"
   end
