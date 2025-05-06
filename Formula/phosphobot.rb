@@ -2,21 +2,21 @@ class Phosphobot < Formula
   desc "Phosphobot teleop application for robot control"
   homepage "https://github.com/phospho-app/phosphobot"
   license "MIT"
-  version "0.2.201"
+  version "0.2.202"
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/v0.2.201/phosphobot-0.2.201-arm64.bin"
-      sha256 "58f8b2298659069758a43c5836e57fca7fcf26ebb02f3d41f4c689a66b9e38c9"
+      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/v0.2.202/phosphobot-0.2.202-arm64.bin"
+      sha256 "d5e62675a03d513cf4f0085a278bd1ab9875a3c588c919adf4ac490ce6db78d1"
     else
-      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/v0.2.201/phosphobot-0.2.201-x86_64.bin"
-      sha256 "8a0c6452c475a55bb9e66547e216b46edbb289554e950e264d32cc5ff06e3f2c"
+      url "https://github.com/phospho-app/homebrew-phosphobot/releases/download/v0.2.202/phosphobot-0.2.202-x86_64.bin"
+      sha256 "26e252611bcbb0caea0a2c5abde65b0d5e0ad97950c593834428fb627efda0f3"
     end
   end
   
   def install
     arch = Hardware::CPU.arm? ? "arm64" : "x86_64"
-    bin_name = "phosphobot-0.2.201-#{arch}.bin"
+    bin_name = "phosphobot-0.2.202-#{arch}.bin"
     chmod "+x", bin_name
     bin.install bin_name => "phosphobot"
   end
