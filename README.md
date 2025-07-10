@@ -1,6 +1,7 @@
 # homebrew-phosphobot
 
-A community-driven platform for robotics enthusiasts to share and explore creative projects built with the phospho Junior Dev Kit.
+This repo is used to distribute [the binaries of the phosphobot repo](https://github.com/phospho-app/phosphobot) on homebrew and more.
+
 
 <div align="center">
 
@@ -9,13 +10,7 @@ A community-driven platform for robotics enthusiasts to share and explore creati
 
 </div>
 
-This is the server side implementation of the phosphobot robotics software.
-Please check [the phosphobot repo](https://github.com/phospho-app/phosphobot) to find the client side implementation.
-
-This is initially meant to be run on a raspberry pi but can be run through brew on a mac.
 Please find instructions below.
-
-If you wish to access this software on another platform or are facing difficulty, please reach out on discord (link above) or at contact@phospho.ai
 
 ## How to install phosphobot with brew
 
